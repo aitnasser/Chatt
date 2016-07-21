@@ -1,14 +1,14 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 23
     buildToolsVersion "20.0.0"
 
     defaultConfig {
         //applicationId "me.kevingleason.pnwebrtc"
         //applicationId "br.com.wfstudio.pnwebrtc"
         minSdkVersion 15
-        targetSdkVersion 21
+        targetSdkVersion 23
         versionName project.VERSION_NAME
         versionCode Integer.parseInt(project.VERSION_CODE)
     }
